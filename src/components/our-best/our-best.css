@@ -1,0 +1,42 @@
+.our-best-section{
+    height: 495px;
+    background: url(../../assets/img/our-best-back.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-item{
+    margin-top: 40px;
+    background-color:rgba(255, 255, 255, 0.5);
+    height: 240px;
+    width: 220px;
+    border-radius: 10px;
+    margin: 0 35px;
+}
+
+.card-item img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 22px;
+}
+
+.descr {
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.price {
+    font-size: 14px;
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 22px;
+    font-weight: bold;
+}
